@@ -1,15 +1,15 @@
 ## 安装并运行 Elasticsearch
 
-### 安装 Java
+#### 1、安装 Java
 
 安装 Elasticsearch 之前，需要先安装最新版本的 Java，可以从 www.java.com 下载。
 
 
-### 获取 Elasticsearch
+#### 2、获取 Elasticsearch
 
 从 Elastic 官网获取，地址：https://www.elastic.co/cn/downloads/elasticsearch 。
 
-### 启动 Elasticsearch
+#### 3、启动 Elasticsearch
 
 ```
 cd elasticsearch-7.6.1
@@ -23,7 +23,7 @@ cd elasticsearch-7.6.1
 ```
 
 
-### 测试 Elasticsearch 是否安装成功
+#### 4、测试 Elasticsearch 是否安装成功
 
 、、、
 curl 'http://localhost:9200/?pretty'
@@ -56,20 +56,24 @@ curl 'http://localhost:9200/?pretty'
 
 Sense 是一个 Kibana 应用，它提供交互式的控制台，新版 Kibana 无需单独安装 Sense。
 
-## 安装 Kibana
+## 1、安装 Kibana
 Sense 是一个 Kibana 应用，它提供交互式的控制台，新
 
-#### 安装 Kibana
+#### 1、安装 Kibana
 
 下载地址 https://www.elastic.co/cn/downloads/kibana
 
-#### 启动 Kibana
+#### 2、启动 Kibana
 
 在 Kibana 目录下，运行：
 
 ```
 ./bin/kibana
 ```
+
+#### 3、打开 Sense
+
+用浏览器中打开 Sense: http://localhost:5601/app/sense 。
 
 
 
