@@ -1,7 +1,7 @@
 ## 安装并运行 Elasticsearch
 
 
-### 安装 Elasticsearch
+### a. 安装 Elasticsearch
 
 #### 1、安装 Java
 
@@ -55,7 +55,7 @@ curl 'http://localhost:9200/?pretty'
 ```
 说明 Elasticseach 已经成功运行了。
 
-## 安装 Sense
+## b. 安装 Sense
 
 Sense 是一个 Kibana 应用，它提供交互式的控制台，新版 Kibana 无需单独安装 Sense。
 
