@@ -56,9 +56,6 @@ curl 'http://localhost:9200/?pretty'
 
 Sense 是一个 Kibana 应用，它提供交互式的控制台，新版 Kibana 无需单独安装 Sense。
 
-## 1、安装 Kibana
-Sense 是一个 Kibana 应用，它提供交互式的控制台，新
-
 #### 1、安装 Kibana
 
 下载地址 https://www.elastic.co/cn/downloads/kibana
