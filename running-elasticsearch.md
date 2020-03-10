@@ -1,5 +1,7 @@
 ## 安装并运行 Elasticsearch
 
+
+
 #### 1、安装 Java
 
 安装 Elasticsearch 之前，需要先安装最新版本的 Java，可以从 www.java.com 下载。
@@ -25,9 +27,9 @@ cd elasticsearch-7.6.1
 
 #### 4、测试 Elasticsearch 是否安装成功
 
-、、、
+```
 curl 'http://localhost:9200/?pretty'
-、、、
+```
 
 如果能看到类似下面的结果
 
