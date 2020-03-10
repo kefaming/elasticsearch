@@ -1,6 +1,7 @@
 ## 安装并运行 Elasticsearch
 
 
+### 安装 Elasticsearch
 
 #### 1、安装 Java
 
