@@ -57,7 +57,7 @@ curl 'http://localhost:9200/?pretty'
 
 ### b. 安装 Sense
 
-Sense 是一个 Kibana 应用，它提供交互式的控制台，新版 Kibana 无需单独安装 Sense。
+Sense 是一个 Kibana 应用，提供交互式的控制台，新版本 Kibana 里已经换成了 devTools，完美替代 Sense.
 
 #### 1、安装 Kibana
 
