@@ -15,6 +15,13 @@
 cd elasticsearch-7.6.1
 ./bin/elasticsearch  
 ```
+如果想把 Elasticsearch 作为一个守护进程在后台运行，那么可以在后面添加参数 -d 。
+
+```
+cd elasticsearch-7.6.1
+./bin/elasticsearch -d
+```
+
 
 ### 测试 Elasticsearch 是否安装成功
 
@@ -44,6 +51,22 @@ curl 'http://localhost:9200/?pretty'
 }
 ```
 说明 Elasticseach 已经成功运行了。
+
+## 安装 Kibana
+
+#### 安装 Kibana
+
+下载地址 https://www.elastic.co/cn/downloads/kibana
+
+#### 启动 Kibana
+
+在 Kibana 目录下，运行：
+
+```
+./bin/kibana
+```
+
+
 
 
 
