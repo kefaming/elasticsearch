@@ -73,7 +73,8 @@ Sense 是一个 Kibana 应用，提供交互式的控制台，新版本 Kibana �
 
 #### 3、打开 Sense
 
-用浏览器中打开 Sense: http://localhost:5601/app/sense 。
+用浏览器中打开 Sense: http://localhost:5601/app/kibana#/dev_tools/console?_g=() 。
+
 
 
 
